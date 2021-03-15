@@ -7,13 +7,13 @@ int cbinsearch(int *arr, int size, int value) {
         if (arr[m] < value)
             l = m + 1;
         else
-	    r = m;
+            r = m;
     }
 
     if (arr[l] == value) {
         while (arr[l] == value) {
-            count++; 
-	    l++;
+            count++;
+            l++;
         }
     }
 
